@@ -1,0 +1,262 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+	margin: 0;
+}
+body{
+	min-width: 1000px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 300;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.cf:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.inner{
+	width: 1000px;
+	margin: 0 auto;
+}
+.slick-slide img{}
+.prevBtn,.nextBtn{
+	cursor: pointer;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	z-index: 1;
+}
+.prevBtn{
+	left: 30px;
+}
+.nextBtn{
+	right: 30px;
+}
+.slick-dots{
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.slick-dots li{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background: #ddd;
+	border-radius: 50%;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.slick-dots li.slick-active{
+	background: #333;
+}
+.slick-dots button{
+	border: 0;
+	font-size: 0;
+	padding: 0;
+}
+
+/*전체*/
+#wrap{}
+
+/*헤더*/
+#header{
+	text-align: center;
+	position: relative;
+	padding-top: 10px;
+}
+#header a{}
+#header a img{}
+
+.util{
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	right: 5%;
+}
+.util li{
+	display: inline-block;
+	margin-right: 5px;
+}
+.util li a{
+	color: #333;	
+}
+
+.gnb{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #71b200;
+}
+.gnb li{
+	width: 20%;
+	float: left;
+}
+.gnb li a{
+	color: #fff;
+}
+
+/*컨테이너*/
+#container{}
+
+.mainSlider{
+	width: 100%;
+	position: relative;
+}
+.mainSlider img{
+	display: block;
+	width: 100%;
+}
+.mainSlider div{
+	border: 2px solid #fff;
+	padding: 20px 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+.mainSlider div b{
+	display: block;
+	margin-top: 5px;
+}
+
+.mainRow1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.mainRow1 h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.row1Box{}
+.row1TextBox{
+	width: 550px;
+	height: 100px;
+	background: #a1a1a1;
+	position: relative;
+	top: 50px;
+	float: left;
+}
+.row1Text{
+	text-align: center;
+	color: #fff;
+}
+.row1Text h2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.row1Text h2 span{
+	color: #f98f1a;
+}
+.row1Text p{}
+.row1Box img{
+	float: right;
+}
+
+/*mainRow2*/
+.mainRow2{
+	background: #ebebeb;
+}
+.row2Box{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.img1{
+	float: left;
+}
+.img1 img{}
+.img2{
+	margin-bottom: 30px;
+	float: right;
+}
+.img2 img{}
+.infoBox{
+	width: 500px;
+	height: 260px;
+	background: #fff;
+	border-top: 3px double #333;
+	border-bottom: 3px double #333;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	box-sizing: border-box;
+	float: right;
+}
+.infoBox a{
+	color: #2c2c2c;
+	font-weight: bold;
+}
+.infoText{
+	text-indent: 10px;
+}
+.news{}
+.news li{
+	margin-top: 10px;
+}
+.news li h2{}
+.news li a{}
+.news li small{}
+.announcement{
+	margin-top: 40px;
+}
+.announcement li{
+	margin-top: 10px;
+}
+.announcement li h2{}
+.announcement li a{}
+.announcement li small{}
+
+/*mainRow3*/
+.mainRow3{
+	margin-top: 20px;
+}
+.mainRow3 .point{
+	display: inline-block;
+	margin-right: 5px;
+}
+.mainRow3 h2{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.all{
+	float: right;
+}
+.all small{}
+
+/*footer*/
+#footer{
+	margin-top: 30px;
+	height: 200px;
+	background: #71b200;
+	color: #fff;
+}
+#footer ul{
+	padding-top: 20px;
+	width: 90%;
+}
+#footer ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+#footer ul li a{
+	color: #fff;
+}
+#footer p{
+	margin-top: 20px;
+	text-indent: 60px;
+}
+#footer p span{
+	display: block;
+	font-weight: bold;
+	margin-top: 20px;
+}
